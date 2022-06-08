@@ -100,3 +100,30 @@ p {
     width: 50%;
   }
 }
+
+@media (max-width: 767px) {
+  body {
+    margin-bottom: 50px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  p {
+    text-align: center;
+    line-height: 1.5;
+  }
+  .project-photo {
+    display: none;
+  }
+  .primary-link {
+    display: block;
+    text-align: center;
+  }
+}
